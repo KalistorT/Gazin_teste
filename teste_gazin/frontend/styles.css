@@ -1,0 +1,185 @@
+/* Configuracao Body----------------------------------------------*/
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Configuracao Index---------------------------------------------*/
+#container_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.text_h1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #40a9ff;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    width: 100%;
+}
+
+#container_controler ul li {
+    border: 1px solid black;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 25px;
+    margin-left: 4px;
+}
+
+#container_titulo ul,
+#container_valores ul {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -12px;
+    justify-content: space-between;
+}
+
+#botton_navegar {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -12px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* Configuracao Cadastro---------------------------------------------*/
+#container_cadastro {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 600px;
+    width: 400px;
+    align-items: center;
+    background-color: #40a9ff;
+    justify-content: space-between;
+}
+
+.cad_text {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    margin-bottom: -5px;
+}
+
+#container_cadastro input {
+    height: 25px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#container_cadastro input[type="submit"]:hover {
+    margin-top: 20px;
+    color: azure;
+    background: rgb(85, 176, 245);
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#container_cadastro input[type="submit"] {
+    margin-top: 20px;
+    background: rgb(85, 176, 245);
+    border: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 3px;
+    width: 130px;
+}
+/* Botao Excluir */
+.excluir{
+    background-color: rgb(255, 8, 0);
+    height: 23px;
+    width: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    
+}
+/* Botao editar */
+.editar{
+    background-color: rgb(5, 82, 17);
+    height: 23px;
+    width: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+}
+#botton_voltar{
+display: flex;
+
+align-items: center;
+text-align: center;
+justify-content:space-between;}
+#botton_voltar a{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 20px;
+    padding-top: 3px;    
+    background: rgb(85, 176, 245);
+    border: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align:center;
+    width: 130px;
+    color: black;
+}
+#botton_cadastro a{
+   
+    background-color: rgb(85, 176, 245);
+    height: 23px;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: none;
+    border-radius: 4px; 
+    display: flex;
+    margin-top: 30px;
+    font-size: large;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding-right: 2px;
+    padding-left: 2px;
+}
